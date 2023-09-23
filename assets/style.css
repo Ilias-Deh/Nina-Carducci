@@ -85,6 +85,11 @@ body {
 	font-style: italic;
 	width: 60%;
 }
+
+.about-me__introduction  {
+	font-size: 1rem !important;
+}
+
 #about-me p {
 	width: 80%;
 	font-size: 14px;
@@ -104,6 +109,7 @@ body {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
+	filter : contrast(100%);
 }
 .nav-pills .nav-link {
 	color: #000
@@ -153,6 +159,10 @@ body {
 	font-family: Spectral;
 	font-weight: 800;
 	font-size: 22px;
+}
+
+blockquote {
+	font-size: 2.5em;
 }
 
 #services {
@@ -255,7 +265,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me p {
 		width: 100%;
 	}
 }
